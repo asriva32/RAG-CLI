@@ -18,10 +18,13 @@ int main() {
 
     /*
      * TODO:
-     * need to figure out how to output the llm response while its generating
-     * implement the cli
      * implement document persistence
-     * pdf to txt conversion -> file cleaning
+     * figure out how to extract text from pdfs (poppler)
+     * implement multistep retrieval
+     *  First retrieval → Retrieve top 20 results with FAISS.
+        Query expansion → Rephrase the query using an LLM.
+        Second retrieval → Retrieve again using the refined query.
+        Final retrieval → Select the best 5-10 documents for generation.
     */
 
     while (true) {
@@ -55,5 +58,3 @@ int main() {
 
     return 0;
 }
-
-//  g++ main.cpp -Iollama-hpp/singleheader -std=c++20

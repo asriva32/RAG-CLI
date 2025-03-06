@@ -16,5 +16,5 @@ std::vector<std::string> EmbeddingServer::chunking(std::string &document){
 std::vector<float> EmbeddingServer::generate(std::string &s){
 
     ollama::response response = ollama::generate_embeddings(model, s);
-    return response.as_json()["embeddings"][0];;
+    return response.as_json()["embeddings"][0];
 }

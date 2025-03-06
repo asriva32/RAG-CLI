@@ -24,10 +24,10 @@ void ask(std::vector<std::string> &args, DB &vdb, EmbeddingServer &es, LLMServer
         prompt += arg + " ";
     }
     prompt.pop_back();
-    std::cout << prompt << '\n';
+
     std::vector<float> embedding = es.generate(prompt);
 
-    std::vector<std::string> retrieved_docs = vdb.search(embedding, 5);
+    std::vector<std::string> retrieved_docs = vdb.search(embedding, 10);
 
     if(retrieved_docs.empty()){
         std::cout << "Please add some documents!\n";
@@ -35,17 +35,28 @@ void ask(std::vector<std::string> &args, DB &vdb, EmbeddingServer &es, LLMServer
     }
 
     std::string new_prompt = "Context: ";
-    // TODO: maybe implement some sort of auto punctuation to improve queries
-    // TODO: look at prompt building techniques
+
     for(const std::string &s: retrieved_docs){
         new_prompt += s + " ";
     }
+
     new_prompt += '\n';
     new_prompt += "Question: " + prompt;
+    new_prompt += "\n Please rephrase the question asked above based on the context given while retaining the original intent.";
 
-    std::cout << new_prompt << '\n';
+    std::string rephrased_prompt = ls.ask(new_prompt);
 
-    std::cout << ls.ask(new_prompt) << std::endl;
+    retrieved_docs = vdb.search(es.generate(rephrased_prompt), 5);
+
+    std::string final_prompt = "Context: ";
+
+    for(const std::string &s: retrieved_docs){
+        final_prompt += s + " ";
+    }
+    final_prompt += '\n';
+    final_prompt += "Question: " + rephrased_prompt;
+
+    std::cout << ls.ask(final_prompt) << std::endl;
 
 }
 
