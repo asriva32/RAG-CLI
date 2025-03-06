@@ -20,11 +20,6 @@ int main() {
      * TODO:
      * implement document persistence
      * figure out how to extract text from pdfs (poppler)
-     * implement multistep retrieval
-     *  First retrieval → Retrieve top 20 results with FAISS.
-        Query expansion → Rephrase the query using an LLM.
-        Second retrieval → Retrieve again using the refined query.
-        Final retrieval → Select the best 5-10 documents for generation.
     */
 
     while (true) {
