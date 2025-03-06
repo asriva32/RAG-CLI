@@ -11,5 +11,3 @@ To run the CLI:
 1. Navigate to the build folder
 2. Run make in the terminal
 3. ./RAG_CLI to run the program
-
-Type help in the terminal for a list of commands
