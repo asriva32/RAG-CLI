@@ -1,4 +1,9 @@
-Currently only supports txt files, but will support pdf's in the future.
+
+TODO:
+ - pdf support
+ - semantic chunking?
+ - document persistence?
+
 Still a WIP.
 
 Setup:

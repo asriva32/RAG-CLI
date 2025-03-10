@@ -50,6 +50,6 @@ int main() {
         handler(command, args, vdb, es, ls);
 
     }
-
+    std::remove("hsnw.bin")
     return 0;
 }
