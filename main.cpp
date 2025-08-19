@@ -16,12 +16,6 @@ int main() {
     EmbeddingServer es("nomic-embed-text");
     LLMServer ls("llama3.1");
 
-    /*
-     * TODO:
-     * implement document persistence
-     * figure out how to extract text from pdfs (poppler)
-    */
-
     while (true) {
         std::cout << "> ";
 
