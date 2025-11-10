@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/main.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/main.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/main.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/utils/utils.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/utils/utils.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/utils/utils.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/utils/utils.cpp.o"
+},
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/vector_db.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/vector_db.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/vector_db.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/vector_db.cpp.o"
+},
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/embedding_server.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/embedding_server.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/embedding_server.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/embedding_server.cpp.o"
+},
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/llm_server.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/llm_server.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/llm_server.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/llm_server.cpp.o"
+},
+{
+  "directory": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/RAG_CLI.dir/src/rag.cpp.o -c /Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/rag.cpp",
+  "file": "/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/src/rag.cpp",
+  "output": "CMakeFiles/RAG_CLI.dir/src/rag.cpp.o"
+}
+]

@@ -1,3 +1,0 @@
-/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/cmake-build-debug/CMakeFiles/RAG_CLI.dir
-/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/arnavsrivastava/Desktop/Projects/RAG-CLI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
