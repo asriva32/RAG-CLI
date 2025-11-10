@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/opt/homebrew/bin/gcc-14",
+            "compilerPath": "/usr/bin/clang",
             "intelliSenseMode": "macos-clang-arm64"
         }
     ],
